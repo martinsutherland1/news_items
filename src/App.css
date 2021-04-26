@@ -34,14 +34,15 @@ body {
 }
 
 #news-details {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   border: 1px solid #333;
   height: 200px;
-  width: 200px;
+  width: 400px;
   text-align: center;
   background-color: white;
   color: black;
+  
  
 }
 
@@ -49,10 +50,13 @@ ul > li {
   list-style-type: none;
   padding: 5px 5px;
   border: 1px solid white;
+  
 }
 
 ul {
   align-items: center;
+  list-style-type: none;
+  padding: 5px 5px;
 }
 
 a {

@@ -26,7 +26,7 @@ const NewsContainer = () => {
       const handleFaveNewsItem = (newsItem) => {
           const updatedNewsItems = news.map((webTitle) => {
               if (webTitle.webTitle === newsItem){
-                  webTitle.favourite = !newsItem.favourite
+                  webTitle.favourite = !webTitle.favourite
               }
               return webTitle
           })

@@ -12,7 +12,7 @@ const FavouriteNews = ({ news, OnNewsItemClick }) => {
             {favouriteNewsItems.map(newsItem => {
                 return (
                     <li key={newsItem.webTitle}>
-                        <button onClick={() => OnNewsItemClick(newsItem.webTitle)}>{newsItem.webTitle}</button>
+                        <button onClick={() => OnNewsItemClick(newsItem)}>{newsItem.webTitle}</button>
     
                     </li>
     
